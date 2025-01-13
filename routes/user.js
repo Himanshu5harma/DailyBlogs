@@ -21,4 +21,8 @@ router.post("/signup", async (req, res) => {
   return res.redirect("/");
 });
 
+router.post("/signin", async (req, res) => {
+    // Implement Sign In Logic here...
+  });
+
 module.exports = router;
